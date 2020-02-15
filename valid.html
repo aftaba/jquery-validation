@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>JQEURY VALIDATION</title>
+	<title>jQuery VALIDATION</title>
 	<style type="text/css">
-		.valid-err{
+		.validation-error{
 			color:red;
 		}
 	</style>
 </head>
 <body>
 	<div>
-		<form method="" action="" class="data-validation-check">
-			<select data-validation="">
-				<option value="0">Select</option>
-				<option value="text">Text</option>
-			</select>
+		<form method="xyz.php" action="xyz.php" class="data-validation-check">
+			<input type="text" data-validation="required|phone" />
 			<input type="submit" value="FORM">
 		</form>
 
