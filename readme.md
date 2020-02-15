@@ -1,4 +1,4 @@
-<h3>jQuery Validator<h3>
+<h3>jQuery Validator</h3>
 
 Create a form element with class name as data-validation-check. <br />
 Eg : &lt;form class="data-validation-check" /&gt;
